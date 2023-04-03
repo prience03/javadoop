@@ -163,15 +163,11 @@ conda remove --name env_name  package_name
 #获得环境中的所有配置
 ```
 conda env export --name myenv > myenv.yml
-
-#
 ```
 
 #重新还原环境
 4. ```
   conda env create -f  myenv.yml
-  
-  4. 
   ```
   
   包（Package）的管理
