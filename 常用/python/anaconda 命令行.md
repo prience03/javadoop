@@ -166,7 +166,8 @@ conda env export --name myenv > myenv.yml
 ```
 
 #重新还原环境
-4. ```
+4.
+  ```
   conda env create -f  myenv.yml
   ```
   
